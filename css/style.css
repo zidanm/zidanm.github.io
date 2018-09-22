@@ -1,0 +1,156 @@
+.navbar-default {
+  margin-bottom: 0;
+  background: #3f51b5;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, .11);
+}
+
+.navbar-default .navbar-header a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-header a:hover {
+  background-color: #F7F7F7;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-collapse .navbar-nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-collapse .navbar-nav a:hover {
+  color: #000;
+  background-color: #F7F7F7;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) .navbar-header {
+  float: left;
+}
+
+@media screen and (max-width: 1200px) .navbar-header {
+  float: none;
+  min-height: inherit;
+}
+
+section {
+  height: 100vh;
+}
+
+.fas, .far {
+  color: #3F51B5;
+}
+
+/***************/
+
+/*****HOME*****/
+
+/*************/
+
+.home-section {
+  background-color: #F7F7F7;
+  padding: 110px 0 110px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.home-section h1 {
+  font-weight: bold;
+  color: #000;
+  font-family: Cambria, Georgia, serif;
+}
+
+#profile {
+  text-align: center;
+  position: relative;
+}
+
+#profile .profileImg {
+  background-image: url(../images/project.jpg);
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+#profile .profileName {
+  color: #000;
+}
+
+#profile a{
+  font-size: 40px;
+  color: #3F51B5;
+  padding: 0.1em;
+}
+
+.home-section .aboutMe {
+  text-align: left;
+  padding-bottom: 50px;
+  font-family: Cambria, Georgia, serif;
+}
+
+.home-section .contact {
+  text-align: center;
+  font-family: Cambria, Georgia, serif;
+}
+
+.home-section .interests h4{
+  text-align: left;
+  font-family: Cambria, Georgia, serif;
+  padding-bottom: 5px;
+  padding-top: 9px;
+}
+
+/* .home-section .interests ul li {
+  list-style-type: none;
+} */
+
+
+
+
+/******************/
+/****RESEARCH****/
+/***************/
+
+.research-section{
+  background-color: #F7F7F7;
+  padding: 110px 0 110px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.research-section .researchTitle{
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Georgia, serif;
+}
+
+.research-section .researchTitle, h2, h5, p{
+  font-family: Cambria, Georgia, serif;
+}
+
+
+/******************/
+/****TEACHING****/
+/***************/
+
+.teaching-section{
+  background-color: #F7F7F7;
+  padding: 110px 0 110px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.teaching-section .teachingTitle{
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Georgia, serif;
+}
+
+.teaching-section .listOfCourses{
+  margin: 50px;
+  font-family: Cambria, Georgia, serif;
+}
